@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import Calculator from './components/Calculator.vue'
+import Calculator from "./components/Calculator.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    Calculator
-  }
-}
+    Calculator,
+  },
+};
 </script>
 
 <style>
@@ -24,7 +24,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-color: #467eb7;
+  background-color: #46b759;
 }
 
 #app {
