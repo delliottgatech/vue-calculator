@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Calculator from "./components/Calculator.vue";
+import Calculator from "./components/VueCalculator.vue";
 
 export default {
   name: "app",
