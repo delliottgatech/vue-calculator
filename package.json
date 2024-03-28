@@ -6,11 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-wc": "vue-cli-service build --target wc --name my-vue-calc ./src/components/VueCalculator.vue"
+    "build-wc": "vue-cli-service build --target wc --name my-vue-calc ./src/components/VueCalculator.vue",
+    "build-libs": "vue-cli-service build --target lib --name initial-calc src/wrapper.js"
   },
   "dependencies": {
     "@babel/eslint-parser": "7.24.1",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vue-custom-element": "^3.3.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.0",
